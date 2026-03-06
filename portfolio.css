@@ -1,0 +1,170 @@
+@font-face {
+    font-family: sofia;
+    src: url(fonts/Sofia-Regular.ttf);
+}
+.sofia {
+    font-family: sofia;
+}
+@font-face {
+    font-family: bodoni;
+    src: url(fonts/BodoniModa_9pt-Medium.ttf);
+}
+.bodoni {
+    font-family: bodoni;
+}
+@font-face {
+    font-family: raleway;
+    src: url(fonts/Raleway-Medium.ttf);
+}
+.raleway {
+    font-family: raleway;
+}
+
+body {
+    font-family:raleway;
+    background-color: #ffe0eb;
+    font-size: 16px;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin:auto;
+}
+h1 {
+    margin: 0;
+    font-family: sofia;
+    font-weight: 700;
+    height: 84px;
+    font-size: 60px;
+    margin: 0 0 0.25em 0;
+}
+h2 {
+    font-family: sofia;
+    font-size: 40px;
+    text-align: center;
+}
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.img_fl {
+    width: 35%;
+    float: left;
+    margin-right: 20px;
+}
+.img_fr {
+    width: 25%;
+    float: right;
+    padding: 0, 2em, 0, 0;
+    margin-right: 20px;
+}
+.edfat {
+    width: 45%;
+    display: flex;
+    margin: auto;
+}
+#header, 
+#footer {
+    padding: 1em
+}
+#header {
+    background-color: rgb(255, 244, 253);
+    display: flex;
+    margin: 0;
+}
+#footer {
+    background-color: rgb(255, 244, 253);
+    margin-top: 30px;
+    clear: both;
+}
+.fabout {
+    margin-top: 30px;
+}
+.hcol1 {
+    width: 35%;
+    float: left;
+}
+.hcol2 {
+    width: 65%;
+    float: right;
+}
+#nav {
+    text-align:right;
+    margin: 0;
+    justify-content: space-evenly;
+}
+#nav li {
+    display: inline;
+    list-style-type: none;
+    font-family: sofia;
+    text-align: center;
+}
+#nav li {
+    background: #b36682;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 0.25em;
+}
+.li {
+    width: 11em;
+    text-align: right;
+}
+#nav li a {
+    text-decoration: none;
+    color:aliceblue;
+    padding: 0.5em 1em 0;
+}
+#nav li a:hover,
+#nav li a.current {
+background-color: #35001c;
+}
+#content {
+    padding: 1em;
+    clear:both;
+    line-height: 1.80em;
+    margin:auto;
+}
+#content p {
+    padding:3.5em;
+    clear:both;
+
+}
+.h2_top {
+    margin-top: 0;
+}
+.grid {
+    display: flex;
+}
+.gcol1,
+.gcol2,
+.gcol3 {
+    width: 33.3%
+}
+.gcol1 {
+    padding: 0 1em 1em 0;
+}
+.gcol2 {
+    padding: 0 1em 1em 0;
+}
+.gcol3 {
+    padding: 0 1em 1em 0;
+}
+.design {
+    width:45%;
+    height: 50vw;
+    margin: auto;
+}
+.resume {
+    width:100%;
+    height: 60vw;
+    margin: auto;
+}
+.img_contact {
+    width: 40%;
+    float: right;
+    padding: 0, 2em, 0, 0;
+    margin-right: 20px;
+    margin-left: 20px;
+}
